@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: #fff;
+}
+body {
+	margin: 50px 0;
+	color: #000;
+	font-family: 'Verdana', 'Calibri', sans-serif;
+}
+#wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #666;
+}
+#photo-wrapper {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+#footer {
+	background: #fc0;
+	font-size: 90%;
+	padding: 10px 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', 'Cambria', serif;
+}
+h1 {
+	font-size: 300%;
+	font-weight: normal;
+	margin-bottom: 20px;
+	line-height: 130%;
+}
+h2 {
+	font-size: 175%;
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	line-height: 130%;
+}
+p {
+	margin-bottom: 16px;
+	line-height: 130%;
+}
+.video-frame {
+	margin: 10px 0;
+	}
+span.righty {
+	float: right;
+}
+a {
+	color: #00C;
+	background: transparent;
+	text-decoration: underline;
+}
+a:hover {
+	color: #fff;
+	background: #f60;
+	text-decoration: none;
+}
+img {
+	margin: 10px 0;
+	border: 1px solid #000;
+}
+img.no-border {
+	border: none;
+}
+a:hover.image {
+	color: #fff;
+	background: #fff;
+	text-decoration: none;
+}
+
+/* lists */
+
+ul { list-style: square; }
+ul, ol {
+	margin-left: 2em;
+	margin-bottom: 16px;
+}
+li { margin-left: 2em; }
+dl { margin-bottom: 16px; }
+dt {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+dd {
+	margin-left: 2em;
+	margin-bottom: 6px;
+}
+
+/* font sizes */
+
+p, li, dt, dd {
+	font-size: 1.1em;
+	line-height: 140%;
+}
+
+/* images */
+
+img.cent-img {
+	display: block;
+	max-width: 100%;
+	margin: 20px auto;
+}
+
+img.floater {
+	float: left;
+	padding: 0;
+}
+img.copyleft {
+	float: right;
+	padding: 0;
+	border: none;
+}
+
+/* special */
+
+p.float-text {
+	float: left;
+	margin: 10px 0 10px 10px;
+	padding: 0;
+	width: 250px;
+}
+.clearfloats {
+	clear: both;
+}
+blockquote {
+	margin-left: 4em;
+}
+#vidlist {
+	list-style: none;
+}
